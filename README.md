@@ -50,5 +50,5 @@ python3 camera_avaliable.py
 execute code
 
 ```shell!
-python3 shooting.py
+python3 filename.py
 ```
