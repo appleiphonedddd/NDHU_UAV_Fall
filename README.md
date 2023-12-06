@@ -32,3 +32,8 @@ Install python package for source code
 ```shell!
 pip install -r requirements.txt
 ```
+execute code
+
+```shell!
+python3 shooting.py
+```
