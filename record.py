@@ -2,7 +2,7 @@ import cv2
 import os
 import datetime
 
-def capture_and_save(camera_index, folder_path):
+def record_video(camera_index, folder_path, record_duration=10, fps=20.0):
     # Create folder if it doesn't exist
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
@@ -13,19 +13,30 @@ def capture_and_save(camera_index, folder_path):
         print(f"Can't turn on camera {camera_index}")
         return
 
-    # Capture frame
-    ret, frame = cap.read()
-    if ret:
-        # Use timestamp for unique filenames
-        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{folder_path}/camera_{camera_index}_{timestamp}.png"
-        cv2.imwrite(filename, frame)  # save picture
-        print(f"Image saved to {filename}")
-    else:
-        print(f"Can't read data from camera {camera_index}")
+    # Define the codec and create VideoWriter object
+    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    video_filename = f"{folder_path}/camera_{camera_index}_{timestamp}.avi"
+    out = cv2.VideoWriter(video_filename, fourcc, fps, (int(cap.get(3)), int(cap.get(4))))
 
-    # Release camera
+    start_time = datetime.datetime.now()
+    while (datetime.datetime.now() - start_time).seconds < record_duration:
+        ret, frame = cap.read()
+        if ret:
+            # Add timestamp to each frame
+            current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            font = cv2.FONT_HERSHEY_SIMPLEX
+            cv2.putText(frame, current_timestamp, (10, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+
+            out.write(frame)
+        else:
+            print("Frame capture failed")
+            break
+
+    # Release everything
     cap.release()
+    out.release()
+    print(f"Video saved to {video_filename}")
 
 cameras = {
     1: 'camera1',
@@ -35,6 +46,6 @@ cameras = {
 }
 
 for index, folder in cameras.items():
-    capture_and_save(index, folder)
+    record_video(index, folder, record_duration=30)
 
 cv2.destroyAllWindows()

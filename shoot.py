@@ -1,4 +1,5 @@
 import cv2
+import datetime
 
 def capture_and_save(camera_index, folder_path, photo_number):
     cap = cv2.VideoCapture(camera_index)
@@ -8,6 +9,13 @@ def capture_and_save(camera_index, folder_path, photo_number):
 
     ret, frame = cap.read()
     if ret:
+        # Get current timestamp
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        
+        # Add timestamp text to frame
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(frame, timestamp, (10, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+
         file_name = f"{folder_path}/camera_{camera_index}_{photo_number}.png"
         cv2.imwrite(file_name, frame)  # save picture
     else:
