@@ -34,6 +34,8 @@ Install python package for source code
 ```shell!
 pip install -r requirements.txt
 ```
+in UVA folder, create `camera1` `camera2` `camera3` `camera4` folders
+
 execute code
 
 ```shell!
