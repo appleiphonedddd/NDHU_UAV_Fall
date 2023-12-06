@@ -21,7 +21,7 @@
 
 ### Installation
 
-Install [Python](https://www.python.org/downloads/release/python-3100/) and Git(https://git-scm.com/downloads)
+Install [Python](https://www.python.org/downloads/release/python-3100/) and [Git](https://git-scm.com/downloads)
 
 Clone the repository to your local machine by running
 
