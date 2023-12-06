@@ -15,10 +15,10 @@ def capture_and_save(camera_index, folder_path):
     cap.release()
 
 cameras = {
-    6: 'camera1',
-    4: 'camera2',
-    2: 'camera3',
-    0: 'camera4'  
+    1: 'camera1',
+    2: 'camera2',
+    3: 'camera3',
+    4: 'camera4'  
 }
 
 for index, folder in cameras.items():
