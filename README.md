@@ -34,20 +34,13 @@ Install python package for source code
 ```shell!
 pip install -r requirements.txt
 ```
-in UVA folder, create `camera1` `camera2` `camera3` `camera4` folders
+in UVA folder, create `UVA` folders
 
-Depend on the result Check Webcam number and change it
-cameras = {
-    1: 'camera1',
-    2: 'camera2',
-    3: 'camera3',
-    4: 'camera4'  
-} 
-
+Check avaliable cameras
 ```shell!
 python3 camera_avaliable.py
 ```
-execute code
+Execute code
 
 ```shell!
 python3 filename.py
