@@ -40,8 +40,3 @@ Check avaliable cameras
 ```shell!
 python3 camera_avaliable.py
 ```
-Execute code
-
-```shell!
-python3 filename.py
-```
