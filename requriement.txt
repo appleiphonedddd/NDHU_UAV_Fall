@@ -1,0 +1,4 @@
+easytello
+djitellopy
+pygame
+mediapipe

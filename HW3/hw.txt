@@ -1,0 +1,2 @@
+1. !FaceMeshModule.py及!HandTrackingModule.py的程式修改成Tello影像串流。
+2. 到STEAM教育學習網把隨便一支mediapipe範本與Tello影像串流結合
