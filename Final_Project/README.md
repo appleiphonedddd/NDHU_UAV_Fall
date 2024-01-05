@@ -1,8 +1,8 @@
 
 
-# NDHU_Lab_of_Data_Structures_2023
+# NDHU_UVA_2023
 
-`Lab_of_Data_Structures` project belongs to the 2023 Data Structures Lab at National Dong Hwa University. It encompasses various implementations and examples of data structures, aiming to assist students in better understanding and practicing data structures.
+`NDHU_UVA_2023` project belongs to the 2023 Data Structures Lab at National Dong Hwa University. It encompasses various implementations and examples of data structures, aiming to assist students in better understanding and practicing data structures.
 
 <!-- PROJECT SHIELDS -->
 
