@@ -95,7 +95,11 @@ Please read[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template
 
 zozo5120@outlook.com
 
-Name:xxxx 
+Name:Egor Lee
+
+611121228@gms.ndhu.edu.tw
+
+Name:Fred
 
 ### Acknowledgements
 
