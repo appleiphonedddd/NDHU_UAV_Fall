@@ -41,10 +41,6 @@
 
 ### Getting Started
 
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
-
-
-
 ###### Requirements
 
 1. Python 3.9 +
