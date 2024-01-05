@@ -56,6 +56,13 @@
 
 ```sh
 git clone https://github.com/appleiphonedddd/NDHU_UAV_2023.git
+cd NDHU_UAV_2023
+```
+
+1. Install Python package
+
+```sh
+pip install -r requirements.txt
 ```
 
 ### Directory_Structure
