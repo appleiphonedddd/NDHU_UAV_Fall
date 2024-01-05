@@ -1,32 +1,7 @@
-
-
 # NDHU_UVA_2023
 
-`NDHU_UVA_2023` project belongs to the 2023 Data Structures Lab at National Dong Hwa University. It encompasses various implementations and examples of data structures, aiming to assist students in better understanding and practicing data structures.
+`NDHU_UVA_2023` project belongs to the 2023 Unmanned Aerial Vehicle in Mobile Networks at National Dong Hwa University. It encompasses use
 
-<br />
-
-<p align="center">
-  <a href="https://github.com/appleiphonedddd/NDHU_UAV_2023/tree/main/Final_Project/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">"完美的"README模板</h3>
-  <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
-    <br />
-    <a href="https://github.com/appleiphonedddd/NDHU_UAV_2023/tree/main/Final_Project"><strong>探索本项目的文档 »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/appleiphonedddd/NDHU_UAV_2023/tree/main/Final_Project">查看Demo</a>
-    ·
-    <a href="https://github.com/appleiphonedddd/NDHU_UAV_2023/tree/main/Final_Project">报告Bug</a>
-    ·
-    <a href="https://github.com/appleiphonedddd/NDHU_UAV_2023/tree/main/Final_Project">提出新特性</a>
-  </p>
-
-</p>
- 
 ## Contents
 
 - [Getting_Started](#GettingStarted)
@@ -44,11 +19,11 @@
 ###### Requirements
 
 1. Python 3.9 +
-2. xxxxx x.x.x
+2. Windows 10
 
 ###### **Installation**
 
-1. Clone the repo
+1. Clone the repo and enter repo folder
 
 ```sh
 git clone https://github.com/appleiphonedddd/NDHU_UAV_2023.git
@@ -73,19 +48,19 @@ filetree
 
 ```
 
-### Development_Architecture
-
-Please read[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md)  to view the architecture for this project
-
 ### Deployment
 
-暂无
+1. Check your webcams are available
+
+```sh
+python camera_avaliable.py
+```
 
 ### Frameworks Used
 
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
+- [OpenCV](https://opencv.org/)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
 
 ### Author
 
