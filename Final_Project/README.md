@@ -1,6 +1,6 @@
 # NDHU_UVA_2023
 
-`NDHU_UVA_2023` project belongs to the 2023 Unmanned Aerial Vehicle in Mobile Networks at National Dong Hwa University. It encompasses use
+`NDHU_UVA_2023` project belongs to the 2023 Unmanned Aerial Vehicle in Mobile Networks at National Dong Hwa University. The purpose of this project is to frame photographs and videos for 3-D modeling
 
 ## Contents
 
@@ -19,7 +19,7 @@
 ###### Requirements
 
 1. Python 3.9 +
-2. Windows 10
+2. Windows 10 or other OS
 
 ###### **Installation**
 
@@ -30,7 +30,7 @@ git clone https://github.com/appleiphonedddd/NDHU_UAV_2023.git
 cd NDHU_UAV_2023
 ```
 
-1. Install Python package
+2. Install Python package
 
 ```sh
 pip install -r requirements.txt
@@ -55,6 +55,9 @@ filetree
 ```sh
 python camera_avaliable.py
 ```
+
+2. Execute `shooting.ipynb` on vscode or Jupyter
+
 
 ### Frameworks Used
 
