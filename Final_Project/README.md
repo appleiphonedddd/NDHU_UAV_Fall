@@ -47,16 +47,15 @@
 
 ###### Requirements
 
-1. xxxxx x.x.x
+1. Python 3.9 +
 2. xxxxx x.x.x
 
 ###### **Installation**
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 
 ```sh
-git clone https://github.com/appleiphonedddd/NDHU_Lab_of_Data_Structures_2023.git
+git clone https://github.com/appleiphonedddd/NDHU_UAV_2023.git
 ```
 
 ### Directory_Structure
