@@ -9,7 +9,7 @@
   - [Installation](#Installation)
 - [Directory_Structure](#Directory_Structure)
 - [Deployment](#Deployment)
-- [Frameworks_Used](#FrameworksUsed)
+- [Frameworks_Used](#Frameworks_Used)
 - [Author](#Author)
 
 
@@ -57,7 +57,7 @@ python camera_avaliable.py
 2. Execute `shooting.ipynb` on vscode or Jupyter
 
 
-### Frameworks Used
+### Frameworks_Used
 
 - [OpenCV](https://opencv.org/)
 - [NumPy](https://numpy.org/)
