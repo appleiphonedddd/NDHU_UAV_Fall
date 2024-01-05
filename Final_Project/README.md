@@ -26,7 +26,7 @@
 
 ```sh
 git clone https://github.com/appleiphonedddd/NDHU_UAV_2023.git
-cd NDHU_UAV_2023
+cd NDHU_UAV_2023/Final_Project
 ```
 
 2. Install Python package
