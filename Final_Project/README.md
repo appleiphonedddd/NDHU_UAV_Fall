@@ -4,16 +4,6 @@
 
 `NDHU_UVA_2023` project belongs to the 2023 Data Structures Lab at National Dong Hwa University. It encompasses various implementations and examples of data structures, aiming to assist students in better understanding and practicing data structures.
 
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 <br />
 
 <p align="center">
