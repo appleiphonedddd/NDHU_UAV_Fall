@@ -8,7 +8,6 @@
   - [Requirements](#Requirements)
   - [Installation](#Installation)
 - [Directory_Structure](#Directory_Structure)
-- [Development_Architecture](#Development_Architecture)
 - [Deployment](#Deployment)
 - [Frameworks_Used](#FrameworksUsed)
 - [Author](#Author)
