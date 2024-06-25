@@ -1,42 +1,83 @@
-![license](https://img.shields.io/github/license/DVLab-NTU/qsyn?style=plastic)
-![stars](https://img.shields.io/github/stars/DVLab-NTU/qsyn?style=plastic)
-![contributors](https://img.shields.io/github/contributors/DVLab-NTU/qsyn?style=plastic)
-![release-date](https://img.shields.io/github/release-date-pre/DVLab-NTU/qsyn?style=plastic)
-![pr-welcome](https://img.shields.io/badge/PRs-welcome-green?style=plastic)
-![g++-10](https://img.shields.io/badge/g++-≥10-blue?style=plastic)
-![clang++-16](https://img.shields.io/badge/clang++-≥16-blueviolet?style=plastic)
+# NDHU_UAV_Fall
 
-# UAV
+`NDHU_UAV_Fall` project belongs to the Unmanned Aerial Vehicle in Mobile Networks at National Dong Hwa University. The purpose of this project is to introducing the architecture, technology, and applications of unmanned vehicles and mobile communication technologies, students will be able to acquire basic concepts and use them in conjunction with various
+This experiment allows students to implement automatic flight control of unmanned vehicles and practice mobile communication technology.
 
----
+## Contents
 
-## Introduction
-`UAV` project belongs to the 2023 UAV at National Dong Hwa University. It is our final project in course
+- [Getting Started](#Getting-Started)
+  - [Requirements](#Requirements)
+  - [Installation](#Installation)
+- [Directory Structure](#Directory-Structure)
+- [Deployment](#Deployment)
+- [Frameworks Used](#Frameworks-Used)
+- [Author](#Author)
 
-## Getting Started
+### Getting Started
 
-### System Requirements
+###### Requirements
 
-`UAV` requires `Python` to build.
+1. Python 3.9
+2. Ubuntu 24.04
 
-### Installation
+###### **Installation**
 
-Install [Python](https://www.python.org/downloads/release/python-3100/) and [Git](https://git-scm.com/downloads)
+1. Upgrade package
 
-Clone the repository to your local machine by running
-
-```shell!
-git clone https://github.com/appleiphonedddd/UVA.git
-cd UVA
+```sh
+sudo apt-get update
 ```
-Install python package for source code
 
-```shell!
+2. Install a list of libraries needed to work
+
+```sh
 pip install -r requirements.txt
 ```
-in UVA folder, create `UVA` folders
 
-Check avaliable cameras
-```shell!
-python3 camera_avaliable.py
+### Directory Structure
+
 ```
+filetree 
+├── Final_Project
+│   ├── camera_avaliable.py
+│   ├── README.md
+│   └── shooting.ipynb
+├── HW1
+│   ├── hw.txt
+│   └── main.py
+├── HW2
+│   ├── hw.txt
+│   ├── Keyboard_Control1.py
+│   └── KeyPressModule.py
+├── HW3
+│   ├── Hand.py
+│   ├── hw.txt
+│   ├── Mesh.py
+│   └── position.py
+├── LICENSE
+├── README.md
+└── requriement.txt
+```
+
+### Deployment
+
+1. Execute the `Python` code in terminal
+
+```sh
+Python3 filename.py
+```
+
+### Frameworks Used
+
+- [Tello](https://www.ryzerobotics.com/zh-tw/tello)
+- [OpenCV](https://opencv.org/)
+- [Matplotlib](https://matplotlib.org/stable/)
+- [Numpy](https://numpy.org/)
+- [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide)
+- [Tello API](https://djitellopy.readthedocs.io/en/latest/tello/)
+
+### Author
+
+611221201@gms.ndhu.edu.tw
+
+Egor Lee

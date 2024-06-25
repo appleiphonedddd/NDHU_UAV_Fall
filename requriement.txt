@@ -2,3 +2,6 @@ easytello
 djitellopy
 pygame
 mediapipe
+numpy 
+matplotlib
+opencv-python
