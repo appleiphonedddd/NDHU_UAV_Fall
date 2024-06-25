@@ -40,18 +40,13 @@ pip install -r requirements.txt
 filetree 
 ├── Final_Project
 │   ├── camera_avaliable.py
-│   ├── README.md
-│   └── shooting.ipynb
 ├── HW1
-│   ├── hw.txt
 │   └── main.py
 ├── HW2
-│   ├── hw.txt
 │   ├── Keyboard_Control1.py
 │   └── KeyPressModule.py
 ├── HW3
 │   ├── Hand.py
-│   ├── hw.txt
 │   ├── Mesh.py
 │   └── position.py
 ├── LICENSE
