@@ -64,7 +64,7 @@ filetree
 1. Execute the `Python` code in terminal
 
 ```sh
-Python3 filename.py
+python3 filename.py
 ```
 
 ### Frameworks Used
